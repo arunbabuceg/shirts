@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeroComponent } from './hero/hero.component';
+import { FeaturesComponent } from './features/features.component';
+import { SupportComponent } from './support/support.component';
+import { LookComponent } from './look/look.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroComponent,
+    FeaturesComponent,
+    SupportComponent,
+    LookComponent
   ],
   imports: [
     BrowserModule,
